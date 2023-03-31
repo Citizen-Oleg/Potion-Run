@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5635022948002828137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5635022948002828140}
+  - component: {fileID: 5635022948002828139}
+  - component: {fileID: 5635022948002828138}
+  - component: {fileID: 5635022948002828141}
+  m_Layer: 0
+  m_Name: SceneContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5635022948002828140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635022948002828137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5635022948002828139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635022948002828137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 5635022948002828138}
+  - {fileID: 5635022948002828141}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!114 &5635022948002828138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635022948002828137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb8bf6717e549ecaeaf613fe5bd4e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _settingsLevelManger:
+    SequenceReagents: 
+  _joystickController: {fileID: 0}
+  _settingsParticleSystemFactory:
+    PoolSize: 2
+    Particles:
+    - {fileID: 8325047252538250909, guid: 1810168468ffe7b4db7f3c67e0743de4, type: 3}
+    - {fileID: 1174978439851048747, guid: bec47e3c7565d7549a2384b6b9d40dff, type: 3}
+  _settingsStripGenerator:
+    StartPoint: {fileID: 5635022948002828140}
+    Finish: {fileID: 8603405956954259501, guid: ec7bfd942a742b448af576e65d769230, type: 3}
+    Start: {fileID: 7814977192550912421, guid: 8279583921a6d2b47934cd1ab6f2a131, type: 3}
+    OptionStrips:
+    - PartStrips:
+      - {fileID: 2493627015196059612, guid: 99a040c1031b05b4d837eb0455dcb778, type: 3}
+  _settingsStripPool:
+    PartStrips:
+    - PoolSize: 1
+      PartStrip: {fileID: 7814977192550912421, guid: 8279583921a6d2b47934cd1ab6f2a131, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 8603405956954259501, guid: ec7bfd942a742b448af576e65d769230, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 2493627015196059612, guid: 99a040c1031b05b4d837eb0455dcb778, type: 3}
+  _settingsEnemyPool:
+    PoolSize: 3
+    Enemies:
+    - {fileID: 6390556598438399081, guid: 954263af23a1b9240b4dd08be9cca287, type: 3}
+    - {fileID: 6390556598438399081, guid: 1411a57a2cbbd394b98a725f702137ef, type: 3}
+    - {fileID: 6390556598438399081, guid: 90bab1ceaeb986241b0fe25a50dab31a, type: 3}
+    - {fileID: 6390556598438399081, guid: ac06626e8b518f24b83cfb0d58c82bfe, type: 3}
+    - {fileID: 6390556598438399081, guid: d0ee07fdb2c44674b96c62a34726f570, type: 3}
+  _settingsReagentProvider:
+    OpenReagent: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+    AllReagent: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  _settingsReagentColorProvider:
+    ModelColors:
+    - Model: 0
+      Color: {r: 0.84313726, g: 0.7058824, b: 0.67058825, a: 1}
+    - Model: 1
+      Color: {r: 0.6862745, g: 0.29411766, b: 0.8039216, a: 1}
+    - Model: 2
+      Color: {r: 0.91764706, g: 0.8627451, b: 0.6, a: 1}
+    - Model: 3
+      Color: {r: 0.6862745, g: 0.29411766, b: 0.8039216, a: 1}
+    - Model: 4
+      Color: {r: 0.70980394, g: 0.3882353, b: 0.3254902, a: 1}
+    - Model: 5
+      Color: {r: 0.30588236, g: 0.39215687, b: 0.45490196, a: 1}
+    - Model: 6
+      Color: {r: 0.30588236, g: 0.39215687, b: 0.45490196, a: 1}
+    - Model: 7
+      Color: {r: 0.6431373, g: 0.36862746, b: 0.4392157, a: 1}
+    - Model: 8
+      Color: {r: 0.6431373, g: 0.36862746, b: 0.4392157, a: 1}
+    ModelParticleColors:
+    - Model: 0
+      Color: {r: 0.84313726, g: 0.7058824, b: 0.67058825, a: 1}
+    - Model: 1
+      Color: {r: 0.6862745, g: 0.29411766, b: 0.8039216, a: 1}
+    - Model: 2
+      Color: {r: 0.67058825, g: 0.43529412, b: 0.38431373, a: 1}
+    - Model: 3
+      Color: {r: 0.6862745, g: 0.29411766, b: 0.8039216, a: 1}
+    - Model: 4
+      Color: {r: 0.6509804, g: 0.4, b: 0.34901962, a: 1}
+    - Model: 5
+      Color: {r: 0.30588236, g: 0.39215687, b: 0.45490196, a: 1}
+    - Model: 6
+      Color: {r: 0.30588236, g: 0.39215687, b: 0.45490196, a: 1}
+    - Model: 7
+      Color: {r: 0.50980395, g: 0.2627451, b: 0.32941177, a: 1}
+    - Model: 8
+      Color: {r: 0.6862745, g: 0.29411766, b: 0.8039216, a: 1}
+    ModelExperimentalColors:
+    - Model: 0
+      Color: {r: 0.84313726, g: 0.7058824, b: 0.67058825, a: 1}
+    - Model: 1
+      Color: {r: 0.6117647, g: 0.32156864, b: 0.7019608, a: 1}
+    - Model: 2
+      Color: {r: 0.6901961, g: 0.6666667, b: 0.54509807, a: 1}
+    - Model: 3
+      Color: {r: 0.6117647, g: 0.32156864, b: 0.7019608, a: 1}
+    - Model: 4
+      Color: {r: 0.6901961, g: 0.4862745, b: 0.44705883, a: 1}
+    - Model: 5
+      Color: {r: 0.3882353, g: 0.44705883, b: 0.49411765, a: 1}
+    - Model: 6
+      Color: {r: 0.3882353, g: 0.44705883, b: 0.49411765, a: 1}
+    - Model: 7
+      Color: {r: 0.6156863, g: 0.28235295, b: 0.36862746, a: 1}
+    - Model: 8
+      Color: {r: 0.6156863, g: 0.28235295, b: 0.36862746, a: 1}
+  _settingsReagentModelProvider:
+    PoolSize: 1
+    ReagentModels:
+    - {fileID: 6363922887165767897, guid: f4b9c2da229ff5441a0fe056fe9beb45, type: 3}
+    - {fileID: -7242048804084677487, guid: 3cdbf6950e92a7a45afdbd56dc9d9b67, type: 3}
+    - {fileID: -7357918927186026535, guid: f582bee8891a52b438e727423cde15f8, type: 3}
+    - {fileID: -8667187754609620590, guid: 9b1046f985b32f34d9be246648be0bad, type: 3}
+    - {fileID: -8727218516666544264, guid: 0a2347633ff8a7c48afdfc4f7409e9a0, type: 3}
+    - {fileID: 2559517260465167133, guid: f786fcc0b33df7f4e965b242f42545ba, type: 3}
+    - {fileID: -6435669277317058834, guid: 6428264e8f8838d459ca71edbcd9f523, type: 3}
+    - {fileID: 6053888083734370321, guid: 7efe69321f835a94fb1e711949334b26, type: 3}
+    - {fileID: -3532089194192016788, guid: ea417adc85e48624fba882833a855c2f, type: 3}
+    - {fileID: -6260220717456818535, guid: 09186bd3fd24e9e448ee5c67d8e7c685, type: 3}
+    - {fileID: 7069634334243103690, guid: a3af0a344347630419d5f7a1ff835bec, type: 3}
+    - {fileID: 8370143624652415513, guid: 2f4528dc288ce1548802a5b6c95e9a98, type: 3}
+    - {fileID: 7137629566499112349, guid: cb735de327bad2f46ba743d798a4e758, type: 3}
+    - {fileID: 4069640054907638823, guid: fad0622b7b171dd4ba2034f1e61a4c4d, type: 3}
+    - {fileID: -3584912557207996885, guid: 49eb99b1b89f2904fba92f44481e58c4, type: 3}
+    - {fileID: -5391029813504004619, guid: 92ec2e34eebe32a4aa67f73d26f86172, type: 3}
+    - {fileID: 2583237701209585035, guid: 8a9906fd3d602f14fbcfbdc27fdfa18d, type: 3}
+    - {fileID: -7951821897813654369, guid: 122d89c4d1a85344b9793097375fd694, type: 3}
+  _settingsCraftController:
+    Recipes:
+    - ModelType: 1
+      RequiredReagents: 100000000b0000000d000000
+    - ModelType: 2
+      RequiredReagents: 100000000b0000000c000000
+    - ModelType: 3
+      RequiredReagents: 10000000040000000d000000
+    - ModelType: 4
+      RequiredReagents: 10000000040000000c000000
+    - ModelType: 5
+      RequiredReagents: 110000000b0000000c000000
+    - ModelType: 6
+      RequiredReagents: 110000000b0000000d000000
+    - ModelType: 7
+      RequiredReagents: 11000000040000000c000000
+    - ModelType: 8
+      RequiredReagents: 11000000040000000d000000
+  _settingsGenerator:
+    Locations: []
+  _settingsProjectileFactory:
+    PoolSize: 3
+    ProjectilePrefab: {fileID: 7808542301002577419, guid: aa0df880bf7bd4c47ab30bd37a558982, type: 3}
+  _settingsMonsterSpawner:
+    SizePool: 3
+    MonsterTypes:
+    - ModelType: 0
+      Monster: {fileID: 6127624339969741382, guid: 54a0850749cc71e47aa71b7fbfde71f2, type: 3}
+    - ModelType: 1
+      Monster: {fileID: 2474453195326513936, guid: 7309f73a92145624fa1d88a921b769c4, type: 3}
+    - ModelType: 2
+      Monster: {fileID: 8181595992493717452, guid: 983742b35a3a6a249a48e7b1a7f1ca32, type: 3}
+    - ModelType: 3
+      Monster: {fileID: 6699969853264841588, guid: 8d0787f7fd6412846a42a67f8cf093c9, type: 3}
+    - ModelType: 4
+      Monster: {fileID: 2541222655832654392, guid: dff4f1889dd26cb4ea2d14bbe1aa1141, type: 3}
+    - ModelType: 5
+      Monster: {fileID: 6127624339969741382, guid: 54a0850749cc71e47aa71b7fbfde71f2, type: 3}
+    - ModelType: 6
+      Monster: {fileID: 5084196025023871642, guid: cd90f4959d0cfda48b9e12877539e832, type: 3}
+    - ModelType: 7
+      Monster: {fileID: 2512105089899014650, guid: 37440cda15bbf794bbc70673dbe47e1a, type: 3}
+    - ModelType: 8
+      Monster: {fileID: 6404865355196191971, guid: d8a07d483f414fc488e5552dd2b8e028, type: 3}
+--- !u!114 &5635022948002828141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635022948002828137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5287c3a5db1d48039f116dd7593629a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

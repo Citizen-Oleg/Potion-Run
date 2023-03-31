@@ -1,0 +1,716 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3673224376000039530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3673224376000039535}
+  - component: {fileID: 3673224376000039528}
+  - component: {fileID: 3673224376000039529}
+  - component: {fileID: 3673224376000039534}
+  m_Layer: 0
+  m_Name: SceneContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3673224376000039535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673224376000039530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3673224376000039528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673224376000039530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 3673224376000039529}
+  - {fileID: 3673224376000039534}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!114 &3673224376000039529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673224376000039530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb8bf6717e549ecaeaf613fe5bd4e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _settingsLevelManger:
+    SequenceReagents: 01000000060000000c00000002000000110000000e000000100000000f000000080000000b0000000400000005000000090000000d000000120000000300000007000000
+  _joystickController: {fileID: 0}
+  _settingsParticleSystemFactory:
+    PoolSize: 2
+    Particles:
+    - {fileID: 8325047252538250909, guid: 1810168468ffe7b4db7f3c67e0743de4, type: 3}
+    - {fileID: 1174978439851048747, guid: bec47e3c7565d7549a2384b6b9d40dff, type: 3}
+  _settingsStripGenerator:
+    StartPoint: {fileID: 3673224376000039535}
+    Finish: {fileID: 8603405956954259501, guid: ec7bfd942a742b448af576e65d769230, type: 3}
+    Start: {fileID: 7814977192550912421, guid: 8279583921a6d2b47934cd1ab6f2a131, type: 3}
+    OptionStrips:
+    - {fileID: 2445337661712370764, guid: 50a1c9faf4f2631458c12a577f00821a, type: 3}
+    - {fileID: 2680178990449934798, guid: fef7128aeea23f149b2695d06bd4e6ae, type: 3}
+    - {fileID: 3073921136616015505, guid: c2fc70e4b0b4057408be6d4d3199c8bf, type: 3}
+    - {fileID: 2163923404785776741, guid: 4224f5a849ed09048bad17de2f055f94, type: 3}
+    - {fileID: 1510924393532743606, guid: 6dd10f38a15f5004caf1afa51dcc9bc4, type: 3}
+    - {fileID: 2680178990449934798, guid: fef7128aeea23f149b2695d06bd4e6ae, type: 3}
+    - {fileID: 1987633538807138563, guid: 5fff328e7103f1c42a5e83ee97f8e224, type: 3}
+    - {fileID: 7936298299244695681, guid: 450b51ee954136f469d84b47681d2508, type: 3}
+    - {fileID: 263105825222776886, guid: eaf1c9e81a35f2143a564dc7a9b183c7, type: 3}
+    - {fileID: 3881436010680914266, guid: e51012c886a4abc46b55783cf7a07c27, type: 3}
+    - {fileID: 3168971681387107904, guid: 5d4446d76034e98459785f245b866395, type: 3}
+    - {fileID: 1046007905513610778, guid: 348bcacf5e2b66f4f9ea57ad860a5be4, type: 3}
+  _settingsStripPool:
+    PartStrips:
+    - PoolSize: 1
+      PartStrip: {fileID: 7814977192550912421, guid: 8279583921a6d2b47934cd1ab6f2a131, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 8603405956954259501, guid: ec7bfd942a742b448af576e65d769230, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 2445337661712370764, guid: 50a1c9faf4f2631458c12a577f00821a, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 2680178990449934798, guid: fef7128aeea23f149b2695d06bd4e6ae, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 3073921136616015505, guid: c2fc70e4b0b4057408be6d4d3199c8bf, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 2163923404785776741, guid: 4224f5a849ed09048bad17de2f055f94, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 1510924393532743606, guid: 6dd10f38a15f5004caf1afa51dcc9bc4, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 1987633538807138563, guid: 5fff328e7103f1c42a5e83ee97f8e224, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 7936298299244695681, guid: 450b51ee954136f469d84b47681d2508, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 263105825222776886, guid: eaf1c9e81a35f2143a564dc7a9b183c7, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 3881436010680914266, guid: e51012c886a4abc46b55783cf7a07c27, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 3168971681387107904, guid: 5d4446d76034e98459785f245b866395, type: 3}
+    - PoolSize: 1
+      PartStrip: {fileID: 1046007905513610778, guid: 348bcacf5e2b66f4f9ea57ad860a5be4, type: 3}
+  _settingsEnemyPool:
+    PoolSize: 3
+    Enemies:
+    - {fileID: 6127158452217096729, guid: 3eda6d8ae076b5a468d817879ac7efab, type: 3}
+    - {fileID: 6127158452217096729, guid: b49e9bb66bb9b604ba89f63b49751872, type: 3}
+    - {fileID: 6127158452217096729, guid: 36d9651668bb40e41b282ae884c765ca, type: 3}
+    - {fileID: 6127158452217096729, guid: e1ad525fa72aaa544943c90827f177e2, type: 3}
+    - {fileID: 6127158452217096729, guid: 5b6af2a32ef5444418f28d61b26c608a, type: 3}
+    - {fileID: 6127158452217096729, guid: 0c2830a2dcebd744ea0cedfbd062f850, type: 3}
+  _settingsReagentProvider:
+    OpenReagent: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+    AllReagent: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  _settingsReagentColorProvider:
+    ModelColors:
+    - Model: 0
+      Color: {r: 0.84313726, g: 0.7058824, b: 0.67058825, a: 1}
+    - Model: 48
+      Color: {r: 0.4668992, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 53
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    - Model: 1
+      Color: {r: 0.6313726, g: 0.56078434, b: 0.7529412, a: 1}
+    - Model: 2
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    - Model: 3
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 4
+      Color: {r: 0.8509804, g: 0.5529412, b: 0.23137255, a: 1}
+    - Model: 51
+      Color: {r: 0.85882354, g: 0.8784314, b: 0.3372549, a: 1}
+    - Model: 52
+      Color: {r: 0.85882354, g: 0.8784314, b: 0.3372549, a: 1}
+    - Model: 5
+      Color: {r: 0.3254902, g: 0.38431373, b: 0.5882353, a: 1}
+    - Model: 6
+      Color: {r: 0.3254902, g: 0.38431373, b: 0.5882353, a: 1}
+    - Model: 7
+      Color: {r: 0.62352943, g: 0.40784314, b: 0.38039216, a: 1}
+    - Model: 8
+      Color: {r: 0.62352943, g: 0.40784314, b: 0.38039216, a: 1}
+    - Model: 9
+      Color: {r: 0.050980393, g: 1, b: 0.2627451, a: 1}
+    - Model: 10
+      Color: {r: 0.84313726, g: 0.7058824, b: 0.67058825, a: 1}
+    - Model: 11
+      Color: {r: 0.050980393, g: 1, b: 0.2627451, a: 1}
+    - Model: 12
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 13
+      Color: {r: 0.7529412, g: 0.6784314, b: 0.4862745, a: 1}
+    - Model: 14
+      Color: {r: 0.34509805, g: 0.4117647, b: 0.50980395, a: 1}
+    - Model: 15
+      Color: {r: 0, g: 0, b: 0, a: 1}
+    - Model: 16
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    - Model: 17
+      Color: {r: 0.80784315, g: 0.92941177, b: 1, a: 1}
+    - Model: 18
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 19
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    - Model: 20
+      Color: {r: 0.80784315, g: 0.92941177, b: 1, a: 1}
+    - Model: 21
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 22
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    - Model: 23
+      Color: {r: 0.80784315, g: 0.92941177, b: 1, a: 1}
+    - Model: 24
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 25
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    - Model: 26
+      Color: {r: 0.80784315, g: 0.92941177, b: 1, a: 1}
+    - Model: 27
+      Color: {r: 0.050980393, g: 1, b: 0.2627451, a: 1}
+    - Model: 28
+      Color: {r: 0.34509805, g: 0.4117647, b: 0.50980395, a: 1}
+    - Model: 29
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 30
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 31
+      Color: {r: 0.87058824, g: 0.76862746, b: 0.6509804, a: 1}
+    - Model: 32
+      Color: {r: 1, g: 0.9098039, b: 0.5921569, a: 1}
+    - Model: 33
+      Color: {r: 0.87058824, g: 0.76862746, b: 0.6509804, a: 1}
+    - Model: 34
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 35
+      Color: {r: 0.050980393, g: 1, b: 0.2627451, a: 1}
+    - Model: 36
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 37
+      Color: {r: 0.87058824, g: 0.76862746, b: 0.6509804, a: 1}
+    - Model: 38
+      Color: {r: 0.101960786, g: 0.5882353, b: 0.7490196, a: 1}
+    - Model: 39
+      Color: {r: 0.101960786, g: 0.5882353, b: 0.7490196, a: 1}
+    - Model: 40
+      Color: {r: 0.87058824, g: 0.76862746, b: 0.6509804, a: 1}
+    - Model: 41
+      Color: {r: 0.101960786, g: 0.5882353, b: 0.7490196, a: 1}
+    - Model: 42
+      Color: {r: 0.101960786, g: 0.5882353, b: 0.7490196, a: 1}
+    - Model: 43
+      Color: {r: 0.101960786, g: 0.5882353, b: 0.7490196, a: 1}
+    - Model: 44
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 45
+      Color: {r: 0.8784314, g: 0.4392157, b: 0.3764706, a: 1}
+    - Model: 46
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    - Model: 47
+      Color: {r: 0.8901961, g: 0.8, b: 0.6431373, a: 1}
+    ModelParticleColors:
+    - Model: 0
+      Color: {r: 0.84313726, g: 0.7058824, b: 0.67058825, a: 1}
+    - Model: 48
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 53
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    - Model: 1
+      Color: {r: 0.5019608, g: 0.44313726, b: 0.6039216, a: 1}
+    - Model: 2
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    - Model: 3
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 4
+      Color: {r: 0.5882353, g: 0.4117647, b: 0.21960784, a: 1}
+    - Model: 51
+      Color: {r: 0.5058824, g: 0.52156866, b: 0.14117648, a: 1}
+    - Model: 52
+      Color: {r: 0.5058824, g: 0.52156866, b: 0.14117648, a: 1}
+    - Model: 5
+      Color: {r: 0.3254902, g: 0.38431373, b: 0.5882353, a: 1}
+    - Model: 6
+      Color: {r: 0.3254902, g: 0.38431373, b: 0.5882353, a: 1}
+    - Model: 7
+      Color: {r: 0.62352943, g: 0.40784314, b: 0.38039216, a: 1}
+    - Model: 8
+      Color: {r: 0.62352943, g: 0.40784314, b: 0.38039216, a: 1}
+    - Model: 9
+      Color: {r: 0.20392157, g: 0.4745098, b: 0.2627451, a: 1}
+    - Model: 10
+      Color: {r: 0.8980392, g: 0.5921569, b: 0.6, a: 1}
+    - Model: 11
+      Color: {r: 0.20392157, g: 0.4745098, b: 0.2627451, a: 1}
+    - Model: 12
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 13
+      Color: {r: 0.41568628, g: 0.34901962, b: 0.28235295, a: 1}
+    - Model: 14
+      Color: {r: 0.34509805, g: 0.4117647, b: 0.50980395, a: 1}
+    - Model: 15
+      Color: {r: 0.08235294, g: 0.08627451, b: 0.08627451, a: 1}
+    - Model: 16
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    - Model: 17
+      Color: {r: 0.40392157, g: 0.44313726, b: 0.4627451, a: 1}
+    - Model: 18
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 19
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    - Model: 20
+      Color: {r: 0.40392157, g: 0.44313726, b: 0.4627451, a: 1}
+    - Model: 21
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 22
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    - Model: 23
+      Color: {r: 0.40392157, g: 0.44313726, b: 0.4627451, a: 1}
+    - Model: 24
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 25
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    - Model: 26
+      Color: {r: 0.40392157, g: 0.44313726, b: 0.4627451, a: 1}
+    - Model: 27
+      Color: {r: 0.20392157, g: 0.4745098, b: 0.2627451, a: 1}
+    - Model: 28
+      Color: {r: 0.34509805, g: 0.4117647, b: 0.50980395, a: 1}
+    - Model: 29
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 30
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 31
+      Color: {r: 0.5372549, g: 0.47058824, b: 0.3882353, a: 1}
+    - Model: 32
+      Color: {r: 0.7647059, g: 0.6784314, b: 0.37254903, a: 1}
+    - Model: 33
+      Color: {r: 0.5372549, g: 0.47058824, b: 0.3882353, a: 1}
+    - Model: 34
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 35
+      Color: {r: 0.20392157, g: 0.4745098, b: 0.2627451, a: 1}
+    - Model: 36
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 37
+      Color: {r: 0.5372549, g: 0.47058824, b: 0.3882353, a: 1}
+    - Model: 38
+      Color: {r: 0.09411765, g: 0.48235294, b: 0.6039216, a: 1}
+    - Model: 39
+      Color: {r: 0.09411765, g: 0.48235294, b: 0.6039216, a: 1}
+    - Model: 40
+      Color: {r: 0.5372549, g: 0.47058824, b: 0.3882353, a: 1}
+    - Model: 41
+      Color: {r: 0.09411765, g: 0.48235294, b: 0.6039216, a: 1}
+    - Model: 42
+      Color: {r: 0.09411765, g: 0.48235294, b: 0.6039216, a: 1}
+    - Model: 43
+      Color: {r: 0.09411765, g: 0.48235294, b: 0.6039216, a: 1}
+    - Model: 44
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 45
+      Color: {r: 0.7294118, g: 0.3529412, b: 0.3019608, a: 1}
+    - Model: 46
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    - Model: 47
+      Color: {r: 0.49411765, g: 0.4509804, b: 0.3764706, a: 1}
+    ModelExperimentalColors:
+    - Model: 0
+      Color: {r: 0.84313726, g: 0.7058824, b: 0.67058825, a: 1}
+    - Model: 48
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 53
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+    - Model: 1
+      Color: {r: 0.5686275, g: 0.5019608, b: 0.6784314, a: 1}
+    - Model: 2
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+    - Model: 3
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 4
+      Color: {r: 0.8509804, g: 0.49411765, b: 0.23137255, a: 1}
+    - Model: 51
+      Color: {r: 0.65882355, g: 0.67058825, b: 0.3137255, a: 1}
+    - Model: 52
+      Color: {r: 0.65882355, g: 0.67058825, b: 0.3137255, a: 1}
+    - Model: 5
+      Color: {r: 0.38039216, g: 0.40784314, b: 0.50980395, a: 1}
+    - Model: 6
+      Color: {r: 0.38039216, g: 0.40784314, b: 0.50980395, a: 1}
+    - Model: 7
+      Color: {r: 0.5411765, g: 0.38431373, b: 0.4509804, a: 1}
+    - Model: 8
+      Color: {r: 0.5411765, g: 0.38431373, b: 0.4509804, a: 1}
+    - Model: 9
+      Color: {r: 0.34901962, g: 0.6627451, b: 0.41568628, a: 1}
+    - Model: 10
+      Color: {r: 0.8980392, g: 0.5921569, b: 0.6, a: 1}
+    - Model: 11
+      Color: {r: 0.34901962, g: 0.6627451, b: 0.41568628, a: 1}
+    - Model: 12
+      Color: {r: 0.46666667, g: 0.3372549, b: 0.7058824, a: 1}
+    - Model: 13
+      Color: {r: 0.5372549, g: 0.4392157, b: 0.32156864, a: 1}
+    - Model: 14
+      Color: {r: 0.34509805, g: 0.4117647, b: 0.50980395, a: 1}
+    - Model: 15
+      Color: {r: 0.19215687, g: 0.23137255, b: 0.28627452, a: 1}
+    - Model: 16
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+    - Model: 17
+      Color: {r: 0.59607846, g: 0.6862745, b: 0.7372549, a: 1}
+    - Model: 18
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 19
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+    - Model: 20
+      Color: {r: 0.59607846, g: 0.6862745, b: 0.7372549, a: 1}
+    - Model: 21
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 22
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+    - Model: 23
+      Color: {r: 0.59607846, g: 0.6862745, b: 0.7372549, a: 1}
+    - Model: 24
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 25
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+    - Model: 26
+      Color: {r: 0.59607846, g: 0.6862745, b: 0.7372549, a: 1}
+    - Model: 27
+      Color: {r: 0.34901962, g: 0.6627451, b: 0.41568628, a: 1}
+    - Model: 28
+      Color: {r: 0.34509805, g: 0.4117647, b: 0.50980395, a: 1}
+    - Model: 29
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 30
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 31
+      Color: {r: 0.69803923, g: 0.61960787, b: 0.5647059, a: 1}
+    - Model: 32
+      Color: {r: 0.5019608, g: 0.4509804, b: 0.2627451, a: 1}
+    - Model: 33
+      Color: {r: 0.69803923, g: 0.61960787, b: 0.5647059, a: 1}
+    - Model: 34
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 35
+      Color: {r: 0.34901962, g: 0.6627451, b: 0.41568628, a: 1}
+    - Model: 36
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 37
+      Color: {r: 0.69803923, g: 0.61960787, b: 0.5647059, a: 1}
+    - Model: 38
+      Color: {r: 0.09411765, g: 0.3529412, b: 0.43529412, a: 1}
+    - Model: 39
+      Color: {r: 0.09411765, g: 0.3529412, b: 0.43529412, a: 1}
+    - Model: 40
+      Color: {r: 0.69803923, g: 0.61960787, b: 0.5647059, a: 1}
+    - Model: 41
+      Color: {r: 0.09411765, g: 0.3529412, b: 0.43529412, a: 1}
+    - Model: 42
+      Color: {r: 0.09411765, g: 0.3529412, b: 0.43529412, a: 1}
+    - Model: 43
+      Color: {r: 0.09411765, g: 0.3529412, b: 0.43529412, a: 1}
+    - Model: 44
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 45
+      Color: {r: 0.7254902, g: 0.41960785, b: 0.47058824, a: 1}
+    - Model: 46
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+    - Model: 47
+      Color: {r: 0.6901961, g: 0.6392157, b: 0.54901963, a: 1}
+  _settingsReagentModelProvider:
+    PoolSize: 1
+    ReagentModels:
+    - {fileID: 6363922887165767897, guid: f4b9c2da229ff5441a0fe056fe9beb45, type: 3}
+    - {fileID: -7242048804084677487, guid: 3cdbf6950e92a7a45afdbd56dc9d9b67, type: 3}
+    - {fileID: -7357918927186026535, guid: f582bee8891a52b438e727423cde15f8, type: 3}
+    - {fileID: -8667187754609620590, guid: 9b1046f985b32f34d9be246648be0bad, type: 3}
+    - {fileID: -8727218516666544264, guid: 0a2347633ff8a7c48afdfc4f7409e9a0, type: 3}
+    - {fileID: 2559517260465167133, guid: f786fcc0b33df7f4e965b242f42545ba, type: 3}
+    - {fileID: -6435669277317058834, guid: 6428264e8f8838d459ca71edbcd9f523, type: 3}
+    - {fileID: 6053888083734370321, guid: 7efe69321f835a94fb1e711949334b26, type: 3}
+    - {fileID: -3532089194192016788, guid: ea417adc85e48624fba882833a855c2f, type: 3}
+    - {fileID: -6260220717456818535, guid: 09186bd3fd24e9e448ee5c67d8e7c685, type: 3}
+    - {fileID: 7069634334243103690, guid: a3af0a344347630419d5f7a1ff835bec, type: 3}
+    - {fileID: 8370143624652415513, guid: 2f4528dc288ce1548802a5b6c95e9a98, type: 3}
+    - {fileID: 7137629566499112349, guid: cb735de327bad2f46ba743d798a4e758, type: 3}
+    - {fileID: 4069640054907638823, guid: fad0622b7b171dd4ba2034f1e61a4c4d, type: 3}
+    - {fileID: -3584912557207996885, guid: 49eb99b1b89f2904fba92f44481e58c4, type: 3}
+    - {fileID: -5391029813504004619, guid: 92ec2e34eebe32a4aa67f73d26f86172, type: 3}
+    - {fileID: 2583237701209585035, guid: 8a9906fd3d602f14fbcfbdc27fdfa18d, type: 3}
+    - {fileID: -7951821897813654369, guid: 122d89c4d1a85344b9793097375fd694, type: 3}
+  _settingsCraftController:
+    Recipes:
+    - ModelType: 29
+      RequiredReagents: 050000000900000003000000
+    - ModelType: 30
+      RequiredReagents: 050000000900000007000000
+    - ModelType: 31
+      RequiredReagents: 050000001200000003000000
+    - ModelType: 32
+      RequiredReagents: 050000001200000007000000
+    - ModelType: 33
+      RequiredReagents: 0d0000001200000003000000
+    - ModelType: 34
+      RequiredReagents: 0d0000000900000003000000
+    - ModelType: 35
+      RequiredReagents: 0d0000001200000007000000
+    - ModelType: 36
+      RequiredReagents: 0d0000000900000007000000
+    - ModelType: 37
+      RequiredReagents: 050000001200000001000000
+    - ModelType: 38
+      RequiredReagents: 050000000200000003000000
+    - ModelType: 39
+      RequiredReagents: 050000000200000001000000
+    - ModelType: 40
+      RequiredReagents: 060000001200000003000000
+    - ModelType: 41
+      RequiredReagents: 060000001200000001000000
+    - ModelType: 42
+      RequiredReagents: 060000000200000003000000
+    - ModelType: 43
+      RequiredReagents: 060000000200000001000000
+    - ModelType: 44
+      RequiredReagents: 0d0000000900000001000000
+    - ModelType: 45
+      RequiredReagents: 050000000900000001000000
+    - ModelType: 47
+      RequiredReagents: 060000000c00000001000000
+    - ModelType: 46
+      RequiredReagents: 050000000c00000003000000
+    - ModelType: 48
+      RequiredReagents: 10000000080000000d000000
+    - ModelType: 53
+      RequiredReagents: 10000000080000000c000000
+    - ModelType: 1
+      RequiredReagents: 100000000b0000000d000000
+    - ModelType: 2
+      RequiredReagents: 100000000b0000000c000000
+    - ModelType: 3
+      RequiredReagents: 10000000040000000d000000
+    - ModelType: 4
+      RequiredReagents: 10000000040000000c000000
+    - ModelType: 51
+      RequiredReagents: 11000000080000000c000000
+    - ModelType: 52
+      RequiredReagents: 11000000080000000d000000
+    - ModelType: 5
+      RequiredReagents: 110000000b0000000c000000
+    - ModelType: 6
+      RequiredReagents: 110000000b0000000d000000
+    - ModelType: 7
+      RequiredReagents: 11000000040000000c000000
+    - ModelType: 8
+      RequiredReagents: 11000000040000000d000000
+    - ModelType: 9
+      RequiredReagents: 0d000000
+    - ModelType: 10
+      RequiredReagents: 05000000
+    - ModelType: 11
+      RequiredReagents: 0e000000
+    - ModelType: 12
+      RequiredReagents: 10000000
+    - ModelType: 13
+      RequiredReagents: 11000000
+    - ModelType: 14
+      RequiredReagents: 06000000
+    - ModelType: 15
+      RequiredReagents: 0e0000000600000009000000
+    - ModelType: 16
+      RequiredReagents: 0e000000060000000c000000
+    - ModelType: 17
+      RequiredReagents: 0e000000060000000f000000
+    - ModelType: 18
+      RequiredReagents: 0e0000000d00000009000000
+    - ModelType: 19
+      RequiredReagents: 0e0000000d0000000c000000
+    - ModelType: 20
+      RequiredReagents: 0e0000000d0000000f000000
+    - ModelType: 21
+      RequiredReagents: 020000000d00000009000000
+    - ModelType: 22
+      RequiredReagents: 020000000d0000000c000000
+    - ModelType: 22
+      RequiredReagents: 020000000d0000000f000000
+    - ModelType: 24
+      RequiredReagents: 020000000600000009000000
+    - ModelType: 25
+      RequiredReagents: 02000000060000000c000000
+    - ModelType: 26
+      RequiredReagents: 02000000060000000f000000
+    - ModelType: 27
+      RequiredReagents: 090000000d000000
+    - ModelType: 28
+      RequiredReagents: 0f00000006000000
+    - ModelType: 0
+      RequiredReagents: 
+  _settingsGenerator:
+    Locations:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  _settingsProjectileFactory:
+    PoolSize: 3
+    ProjectilePrefab: {fileID: 7808542301002577419, guid: aa0df880bf7bd4c47ab30bd37a558982, type: 3}
+  _settingsMonsterSpawner:
+    SizePool: 2
+    MonsterTypes:
+    - ModelType: 0
+      Monster: {fileID: 2335058295277019275, guid: c7b050fd47ee41c4f9bf9382cf08237c, type: 3}
+    - ModelType: 48
+      Monster: {fileID: 5974473325250946652, guid: b81e2100f3afa8a4e8f67792d18e9ddf, type: 3}
+    - ModelType: 53
+      Monster: {fileID: 5974473325250946652, guid: eca1f6b98aa2bf5458bcd4ff097b01bb, type: 3}
+    - ModelType: 1
+      Monster: {fileID: 2474453195326513936, guid: 7309f73a92145624fa1d88a921b769c4, type: 3}
+    - ModelType: 2
+      Monster: {fileID: 8181595992493717452, guid: 983742b35a3a6a249a48e7b1a7f1ca32, type: 3}
+    - ModelType: 3
+      Monster: {fileID: 6699969853264841588, guid: 8d0787f7fd6412846a42a67f8cf093c9, type: 3}
+    - ModelType: 4
+      Monster: {fileID: 2541222655832654392, guid: dff4f1889dd26cb4ea2d14bbe1aa1141, type: 3}
+    - ModelType: 51
+      Monster: {fileID: 2969669568435669445, guid: da08fc2203aee6a4fb358ad42e02eb5b, type: 3}
+    - ModelType: 52
+      Monster: {fileID: 6265720245336130437, guid: bee59c45558d7444097bc54aab2764ba, type: 3}
+    - ModelType: 5
+      Monster: {fileID: 6127624339969741382, guid: 54a0850749cc71e47aa71b7fbfde71f2, type: 3}
+    - ModelType: 6
+      Monster: {fileID: 5084196025023871642, guid: cd90f4959d0cfda48b9e12877539e832, type: 3}
+    - ModelType: 7
+      Monster: {fileID: 2512105089899014650, guid: 37440cda15bbf794bbc70673dbe47e1a, type: 3}
+    - ModelType: 8
+      Monster: {fileID: 6404865355196191971, guid: d8a07d483f414fc488e5552dd2b8e028, type: 3}
+    - ModelType: 9
+      Monster: {fileID: 6452840804952616681, guid: 236037b9785737d408d99d86c54f4337, type: 3}
+    - ModelType: 10
+      Monster: {fileID: 2335058295277019275, guid: c7b050fd47ee41c4f9bf9382cf08237c, type: 3}
+    - ModelType: 11
+      Monster: {fileID: 1752437077174750609, guid: c3e9c1314cd3b174298eaf2b2c644b1a, type: 3}
+    - ModelType: 12
+      Monster: {fileID: 7945441180101741136, guid: 3b5cbb5fa9acbd74b98d9665bbd58d1f, type: 3}
+    - ModelType: 13
+      Monster: {fileID: 6045770094240056980, guid: 8438c09e5007d8c44a68e9606813a61a, type: 3}
+    - ModelType: 14
+      Monster: {fileID: 7587335649688087779, guid: 950005854b7e38e44a061daa994821da, type: 3}
+    - ModelType: 15
+      Monster: {fileID: 5373708537979575607, guid: d4719707c3bae5e44b0cd0e13c0653cb, type: 3}
+    - ModelType: 16
+      Monster: {fileID: 5373708537979575607, guid: 07508ec657b222145948585da146d220, type: 3}
+    - ModelType: 17
+      Monster: {fileID: 5373708537979575607, guid: bca1281a43fb4604abfd289b69123f6d, type: 3}
+    - ModelType: 18
+      Monster: {fileID: 2911762411206410255, guid: 077133675002507459bb3bc991169772, type: 3}
+    - ModelType: 19
+      Monster: {fileID: 2911762411206410255, guid: 95e9b35c009550245a78dce313f0d630, type: 3}
+    - ModelType: 20
+      Monster: {fileID: 2911762411206410255, guid: 1d6277488b91d0042a69ab094fdff756, type: 3}
+    - ModelType: 21
+      Monster: {fileID: 3420717960774839229, guid: c1577d29c1691034fae1571cadaadcde, type: 3}
+    - ModelType: 22
+      Monster: {fileID: 3420717960774839229, guid: b830037dcbdb3e04ab5b10125bd2af48, type: 3}
+    - ModelType: 23
+      Monster: {fileID: 3420717960774839229, guid: f33bedf3b8ae8c04f955c1086090a2a0, type: 3}
+    - ModelType: 24
+      Monster: {fileID: 3813370895671581683, guid: 400d9e7bf34cfc94cbcaafcfec8d632c, type: 3}
+    - ModelType: 25
+      Monster: {fileID: 3813370895671581683, guid: e073cb54d443ef64187774ed627d2b6f, type: 3}
+    - ModelType: 26
+      Monster: {fileID: 3813370895671581683, guid: 561125bb9b6c6364aa397cbf4f197438, type: 3}
+    - ModelType: 27
+      Monster: {fileID: 3911582226934353275, guid: 60c71d204a431764893561ea3c47fc1d, type: 3}
+    - ModelType: 28
+      Monster: {fileID: 438902942835490820, guid: 67b191c3991b524478f078736002f988, type: 3}
+    - ModelType: 29
+      Monster: {fileID: 1242277820043819048, guid: bb54e48a76fd7f34cbb91f1c2f132991, type: 3}
+    - ModelType: 30
+      Monster: {fileID: 2778259753820992134, guid: 882cb19aa1a845548a5af1c0acc7c907, type: 3}
+    - ModelType: 31
+      Monster: {fileID: 995115030221664090, guid: 23957a58014676247aac59cf9097b02e, type: 3}
+    - ModelType: 32
+      Monster: {fileID: 5496666878367479036, guid: 19401e1cac7ba3145ad14022110d3d70, type: 3}
+    - ModelType: 33
+      Monster: {fileID: 2190510143988283949, guid: c1e9532e43ade16468744e0df08f8e72, type: 3}
+    - ModelType: 34
+      Monster: {fileID: 8052528844010590270, guid: 3348d27bdb87b4748823ddd03fc0edbe, type: 3}
+    - ModelType: 35
+      Monster: {fileID: 7513112519932673672, guid: 950eca66e466c734691bdbef1c70dd94, type: 3}
+    - ModelType: 36
+      Monster: {fileID: 1156292471830670778, guid: 06b03f74b2c342c4fa6871d583c3fc00, type: 3}
+    - ModelType: 37
+      Monster: {fileID: 8071554724655415926, guid: e0991fbd8036d304c8399fc1117eb44e, type: 3}
+    - ModelType: 38
+      Monster: {fileID: 8071554724655415926, guid: c13c807f0ca43e844bb1b43b424518c0, type: 3}
+    - ModelType: 39
+      Monster: {fileID: 8225563593950260355, guid: c6792f99082a18949b04296ba91e85e1, type: 3}
+    - ModelType: 40
+      Monster: {fileID: 5266815292300550773, guid: 201c697f3ad3ce9448d092d36861dc50, type: 3}
+    - ModelType: 41
+      Monster: {fileID: 3822284916981739784, guid: 03b150cedd226ca48b26e4995c9353c3, type: 3}
+    - ModelType: 42
+      Monster: {fileID: 8791866840056274730, guid: 050660799b7a19a4cb8deb34a0b4fecd, type: 3}
+    - ModelType: 43
+      Monster: {fileID: 681319015137610724, guid: f5f6704f331140741b2e9aff4933fe4d, type: 3}
+    - ModelType: 44
+      Monster: {fileID: 2929298737800669873, guid: 2c0bd9a090496c24684b29c7c098d8bc, type: 3}
+    - ModelType: 45
+      Monster: {fileID: 1960304764642709210, guid: f9f1a6359f7bd304fbcfb888bb41f1b4, type: 3}
+    - ModelType: 46
+      Monster: {fileID: 2907864401605960226, guid: 40894e9c43c883d4b8f3276294633297, type: 3}
+    - ModelType: 47
+      Monster: {fileID: 8438610039974856863, guid: 376d4db7da211314ea985a5d27ad9e1a, type: 3}
+--- !u!114 &3673224376000039534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673224376000039530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5287c3a5db1d48039f116dd7593629a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

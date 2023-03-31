@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 8812d1991e1e5064b8014b6e3baee10d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chest
+    100002: hair1
+    100004: head1
+    100006: joint2
+    100008: joint2 1
+    100010: joint3
+    100012: joint3 1
+    100014: joint4
+    100016: joint4 1
+    100018: joint6
+    100020: joint6 1
+    100022: joint6 2
+    100024: joint6 3
+    100026: joint6 4
+    100028: joint6 5
+    100030: joint6 6
+    100032: joint6 7
+    100034: joint7
+    100036: joint7 1
+    100038: joint7 2
+    100040: joint7 3
+    100042: joint7 4
+    100044: joint7 5
+    100046: joint7 6
+    100048: joint7 7
+    100050: joint8
+    100052: joint8 1
+    100054: joint8 2
+    100056: joint8 3
+    100058: joint8 4
+    100060: joint8 5
+    100062: joint8 6
+    100064: joint8 7
+    100066: L_arm
+    100068: L_eble
+    100070: L_foot
+    100072: L_hand
+    100074: L_Index_finger
+    100076: L_joint5
+    100078: L_knee
+    100080: L_leg
+    100082: L_Litter_thumb
+    100084: L_Middle_finger
+    100086: L_Ring_finger
+    100088: L_shoulder
+    100090: L_Thumb
+    100092: L_toe
+    100094: neck
+    100096: //RootNode
+    100098: playerB
+    100100: R_arm
+    100102: R_eble
+    100104: R_foot
+    100106: R_hand
+    100108: R_Index_finger
+    100110: R_joint5
+    100112: R_knee
+    100114: R_leg
+    100116: R_Litter_thumb
+    100118: R_Middle_finger
+    100120: R_Ring_finger
+    100122: R_shoulder
+    100124: R_Thumb
+    100126: R_toe
+    100128: root
+    100130: waist
+    400000: chest
+    400002: hair1
+    400004: head1
+    400006: joint2
+    400008: joint2 1
+    400010: joint3
+    400012: joint3 1
+    400014: joint4
+    400016: joint4 1
+    400018: joint6
+    400020: joint6 1
+    400022: joint6 2
+    400024: joint6 3
+    400026: joint6 4
+    400028: joint6 5
+    400030: joint6 6
+    400032: joint6 7
+    400034: joint7
+    400036: joint7 1
+    400038: joint7 2
+    400040: joint7 3
+    400042: joint7 4
+    400044: joint7 5
+    400046: joint7 6
+    400048: joint7 7
+    400050: joint8
+    400052: joint8 1
+    400054: joint8 2
+    400056: joint8 3
+    400058: joint8 4
+    400060: joint8 5
+    400062: joint8 6
+    400064: joint8 7
+    400066: L_arm
+    400068: L_eble
+    400070: L_foot
+    400072: L_hand
+    400074: L_Index_finger
+    400076: L_joint5
+    400078: L_knee
+    400080: L_leg
+    400082: L_Litter_thumb
+    400084: L_Middle_finger
+    400086: L_Ring_finger
+    400088: L_shoulder
+    400090: L_Thumb
+    400092: L_toe
+    400094: neck
+    400096: //RootNode
+    400098: playerB
+    400100: R_arm
+    400102: R_eble
+    400104: R_foot
+    400106: R_hand
+    400108: R_Index_finger
+    400110: R_joint5
+    400112: R_knee
+    400114: R_leg
+    400116: R_Litter_thumb
+    400118: R_Middle_finger
+    400120: R_Ring_finger
+    400122: R_shoulder
+    400124: R_Thumb
+    400126: R_toe
+    400128: root
+    400130: waist
+    2100000: PlayerTest_lambert1
+    2100002: lambert17
+    4300000: playerB
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: playerB
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlayerTest_lambert1
+    second: {fileID: 2100000, guid: d78a8acc260ddbd43b69d0a1e3dce5e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert17
+    second: {fileID: 2100000, guid: 4de46549c28837c4f986664352eb1cbb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.22
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0022
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
